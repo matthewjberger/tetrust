@@ -1,0 +1,12 @@
+[package]
+name = "tetrust"
+version = "0.1.0"
+authors = ["matthewjberger <matthewberger@nevada.unr.edu>"]
+edition = "2018"
+
+[dependencies]
+ggez = "0.4.4"
+
+[dependencies.sdl2]
+version = "0.31.0"
+features = ["bundled", "static-link"]
